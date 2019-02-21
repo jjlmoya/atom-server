@@ -42,7 +42,7 @@ module.exports = function (app) {
 
 
     app.set('view engine', 'hbs');
-    app.set('views', path.join(__dirname, '../atomic-html'));
+    app.set('views', path.join(__dirname, '../atom-html'));
     app.use(express.static(path.join(__dirname, '../www/public')));
 };
 
