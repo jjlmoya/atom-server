@@ -11,7 +11,9 @@ const cp = config.cp;
 
 const lmg = config.lmg;
 
-const vostok = config.vostok;
+const vostok = config.vostok
+
+const pyf = config.pyf;
 
 
 module.exports = function (app) {
@@ -56,5 +58,9 @@ module.exports = function (app) {
 
     app.get(iberojet.path, function (req, res) {
         res.render(iberojet.view, Commons.join({layout: iberojet.layout}));
+    });
+
+    app.get(pyf.path, function (req, res) {
+        res.render(pyf.view, Commons.join({layout: pyf.layout}));
     });
 };

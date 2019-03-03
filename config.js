@@ -53,6 +53,11 @@ exports.router = function () {
             view: 'pages/lmg/index',
             layout: 'main'
         },
+        pyf: {
+            path: '/pyf',
+            view: 'pages/pyf/index',
+            layout: 'main'
+        },
         vostok: {
             path: '/vostok',
             view: 'pages/vostok/index',
