@@ -17,12 +17,13 @@ exports.router = function () {
         home: {
             path: '/',
             view: 'home',
-            layout: 'main'
+            layout: 'main',
         },
         bonseo: {
             path: '/bonseo/',
             view: 'pages/bonseo/index',
             layout: 'main',
+            brand: 'sky',
             pages: {
                 services: {
                     path: 'servicios',
@@ -41,27 +42,32 @@ exports.router = function () {
         cp: {
             path: '/cp',
             view: 'pages/cp/index',
-            layout: 'main'
+            layout: 'main',
+            brand: 'kino',
         },
         iberojet: {
             path: '/iberojet',
             view: 'pages/iberojet/index',
-            layout: 'abtasty'
+            layout: 'abtasty',
+            brand: 'purple-skies',
         },
         lmg: {
             path: '/lmg',
             view: 'pages/lmg/index',
-            layout: 'main'
+            layout: 'main',
+            brand: 'diable',
         },
         pyf: {
             path: '/pyf',
             view: 'pages/pyf/index',
-            layout: 'main'
+            layout: 'main',
+            brand: 'forest'
         },
         vostok: {
             path: '/vostok',
             view: 'pages/vostok/index',
-            layout: 'main'
+            layout: 'main',
+            brand: 'paradise-orange'
         }
     }
 };
