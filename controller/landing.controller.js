@@ -19,13 +19,13 @@ module.exports = function (app) {
     app.get(bonseo.path, function (req, res) {
         res.render(bonseo.view, Commons.join(bonseo));
     });
-    app.get(bonseoPages.diy.path, function (req, res) {
+    app.get(bonseo.path + bonseoPages.diy.path, function (req, res) {
         res.render(bonseoPages.diy.view, Commons.join(bonseo));
     });
-    app.get(bonseoPages.services.path, function (req, res) {
+    app.get(bonseo.path + bonseoPages.services.path, function (req, res) {
         res.render(bonseo.services.view, Commons.join(bonseo));
     });
-    app.get(bonseoPages.courses.path, function (req, res) {
+    app.get(bonseo.path + bonseoPages.courses.path, function (req, res) {
         res.render(bonseoPages.courses.view, Commons.join(bonseo));
     });
 
