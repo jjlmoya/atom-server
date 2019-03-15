@@ -6,6 +6,21 @@ exports.db = function () {
     }
 };
 
+exports.brands = [
+    'aviator',
+    'diable',
+    'forest',
+    'graylord',
+    'kino',
+    'lime-sports',
+    'lollipop',
+    'mint',
+    'paradise-orange',
+    'purple-skies',
+    'reverse-sky',
+    'sky'
+];
+
 exports.server = function () {
     return {
         port: 3125
@@ -13,61 +28,83 @@ exports.server = function () {
 };
 
 exports.router = function () {
-    return {
-        home: {
+    return [
+        {
             path: '/',
             view: 'home',
             layout: 'main',
+            name: 'Home'
         },
-        bonseo: {
+        {
+            path: '/core/',
+            view: 'pages/core/index',
+            layout: 'main',
+            name: 'Core',
+            pages: [
+                {
+                    path: 'temas',
+                    view: 'pages/core/theme',
+                    name: 'Temas'
+                }
+            ],
+        },
+        {
             path: '/bonseo/',
             view: 'pages/bonseo/index',
             layout: 'main',
             brand: 'sky',
-            pages: {
-                services: {
+            name: 'Bonseo',
+            pages: [
+                {
                     path: 'servicios',
-                    view: 'pages/bonseo/services'
+                    view: 'pages/bonseo/services',
+                    name: 'Servicios'
                 },
-                diy: {
+                {
                     path: 'hazlo-tu-mismo',
-                    view: 'pages/bonseo/diy'
-                },
-                courses: {
+                    view: 'pages/bonseo/diy',
+                    name: 'Hazlo tu mismo'
+                }, {
                     path: 'cursos',
-                    view: 'pages/bonseo/courses'
-                }
-            }
+                    view: 'pages/bonseo/courses',
+                    name: 'Cursos'
+
+                }],
         },
-        cp: {
+        {
             path: '/cp',
             view: 'pages/cp/index',
             layout: 'main',
+            name: 'CP',
             brand: 'kino',
         },
-        iberojet: {
+        {
             path: '/iberojet',
             view: 'pages/iberojet/index',
             layout: 'abtasty',
+            name: 'Iberojet',
             brand: 'purple-skies',
         },
-        lmg: {
+        {
             path: '/lmg',
             view: 'pages/lmg/index',
             layout: 'main',
+            name: 'LetMeGift',
             brand: 'diable',
         },
-        pyf: {
+        {
             path: '/pyf',
             view: 'pages/pyf/index',
             layout: 'main',
+            name: 'Plantas y Flores',
             brand: 'forest'
         },
-        vostok: {
+        {
             path: '/vostok',
             view: 'pages/vostok/index',
+            name: 'Vostok',
             layout: 'main',
             brand: 'paradise-orange'
         }
-    }
+    ]
 };
