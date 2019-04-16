@@ -104,7 +104,7 @@ exports.router = function () {
             view: 'pages/vostok/index',
             name: 'Vostok',
             layout: 'main',
-            brand: 'paradise-orange'
+            brand: 'diable'
         }
     ]
 };
