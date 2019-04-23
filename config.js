@@ -72,11 +72,22 @@ exports.router = function () {
                 }],
         },
         {
-            path: '/cp',
+            path: '/cp/',
             view: 'pages/cp/index',
             layout: 'main',
             name: 'CP',
             brand: 'kino',
+            pages: [
+                {
+                    path: 'guia-de-viaje',
+                    view: 'pages/cp/guides',
+                    name: 'Guías de Viaje'
+                },
+                {
+                    path: 'guia-de-viaje/alemania',
+                    view: 'pages/cp/guide',
+                    name: 'Guía de Viaje: Alemania'
+                }],
         },
         {
             path: '/iberojet',
