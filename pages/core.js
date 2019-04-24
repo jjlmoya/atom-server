@@ -3,6 +3,7 @@ module.exports = {
     view: 'pages/core/index',
     layout: 'main',
     name: 'Core',
+    logo: '/images/bonseo/logo.png',
     pages: [
         {
             path: 'temas',
