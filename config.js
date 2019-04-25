@@ -36,6 +36,7 @@ exports.router = function () {
         require('./pages/vostok'),
         require('./pages/purple'),
         require('./pages/lmg'),
-        require('./pages/pyf')
+        require('./pages/pyf'),
+        require('./pages/frontjs')
     ]
 };

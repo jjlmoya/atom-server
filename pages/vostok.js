@@ -5,6 +5,7 @@ module.exports = {
     layout: 'main',
     brand: 'diable',
     images: {
+        transparent: 'https://i.pinimg.com/originals/23/ec/93/23ec93f8d4e92b6706b27a6caddf559e.png',
         product: 'https://cdn.tmobile.com/content/dam/t-mobile/en-p/internet-devices/apple/watch-series4-44/space-gray-black-band/Apple-WatchSeries4-Cellular-44mm-AluminumSpaceGray-SportBand-Black-1-3x.jpg',
         bg: 'https://cdnb.artstation.com/p/assets/images/images/008/331/651/large/bakhytzhan-shabdukarimov-new-demo-5-vostok.jpg?1512057321',
         products:
