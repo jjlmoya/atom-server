@@ -19,6 +19,7 @@ module.exports = {
         {
             path: 'servicios',
             view: 'pages/bonseo/services',
+            layout: 'abtasty',
             name: 'Servicios'
         },
         {

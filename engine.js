@@ -12,7 +12,7 @@ module.exports = function (app) {
                 return arguments.split(',');
             },
             ternary: function (arg1, arg2) {
-                return arg1 ?  arg1 : arg2;
+                return arg1 ? arg1 : arg2;
             },
             equals: function (arg1, arg2, options) {
                 return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
@@ -40,7 +40,7 @@ module.exports = function (app) {
                 }
                 return result;
             },
-            partial: function (name) {
+            partial: function (name, args) {
                 return name;
             }
         }
