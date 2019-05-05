@@ -5,7 +5,7 @@ module.exports = function (app) {
     app.engine('.hbs', exphbs({
         defaultLayout: '../layout/main',
         extname: '.hbs',
-        partialsDir: '../atom-html/partials',
+        partialsDir: 'atom-html/partials',
         helpers: {
             arr: function (arguments) {
                 return arguments.split(',');
