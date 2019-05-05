@@ -1,7 +1,7 @@
 module.exports = {
-    path: '/iberojet',
-    view: 'pages/iberojet/index',
+    path: '/purple',
+    view: 'pages/purple/index',
     layout: 'abtasty',
-    name: 'Iberojet',
+    name: 'Purple',
     brand: 'purple-skies',
 };
