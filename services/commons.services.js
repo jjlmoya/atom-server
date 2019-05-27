@@ -17,7 +17,8 @@ exports.read = function (config) {
 exports.join = function (values) {
     let model = {
         brands: brands,
-        router: router
+        router: router,
+        mock: require('../settings/mock')
     };
     if (typeof values !== 'array') {
         values = [values];
@@ -25,6 +26,7 @@ exports.join = function (values) {
     _.forEach(values, function (value) {
         Object.assign(model, model, value)
     });
+    console.log(model);
     return model;
 };
 
