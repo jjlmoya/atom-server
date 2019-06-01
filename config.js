@@ -8,6 +8,8 @@ exports.db = function () {
 
 exports.brands = [
     'aviator',
+    'clouds',
+    'celeste',
     'diable',
     'forest',
     'graylord',
@@ -15,6 +17,7 @@ exports.brands = [
     'lime-sports',
     'lollipop',
     'mint',
+    'nature',
     'paradise-orange',
     'purple-skies',
     'reverse-sky',
