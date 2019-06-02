@@ -15,9 +15,10 @@ exports.read = function (config) {
 };
 
 exports.join = function (values) {
-    let model = {
+    var model = {
         brands: brands,
         router: router,
+        components: require('../components/index'),
         mock: require('../settings/mock')
     };
     if (typeof values !== 'array') {
@@ -26,12 +27,12 @@ exports.join = function (values) {
     _.forEach(values, function (value) {
         Object.assign(model, model, value)
     });
-    console.log(model);
+    console.log('hola');
     return model;
 };
 
 exports.getPromises = function (page) {
-    return _.map(page.services.read, service => {
+    return _.map(page.services.read, function (service) {
         return service();
     });
 };

@@ -9,6 +9,11 @@ module.exports = {
             path: 'temas',
             view: 'pages/core/theme',
             name: 'Temas'
+        },
+        {
+            path: 'atoms',
+            view: 'pages/core/atoms',
+            name: 'Atoms'
         }
     ],
 }

@@ -31,12 +31,14 @@ module.exports = function (app) {
             },
             setVar: function (varName, varValue, options) {
                 options.data.root[varName] = varValue;
+                console.log(options.data.root);
             },
             concat: function () {
                 var result = "";
                 for (var i in arguments) {
                     result += (typeof arguments[i] === "string" ? arguments[i] : "") + "";
                 }
+                console.log('result %o', result);
                 return result;
             },
             partial: function (name, args) {

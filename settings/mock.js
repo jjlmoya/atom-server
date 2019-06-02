@@ -31,6 +31,8 @@ module.exports = {
             link: ''
         }
     ],
+    svg: "atoms/icons/utils/eye",
+    cta: "botón",
     bg: 'https://auspostenterprise.com.au/content/dam/corp/ent-gov/insights/digitising-services/how-regulation-and-technology.jpg',
     transparent: 'https://cryptorunner.com/wp-content/uploads/2017/10/ethereum-symbol.png'
 };
