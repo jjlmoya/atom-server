@@ -27,7 +27,6 @@ exports.join = function (values) {
     _.forEach(values, function (value) {
         Object.assign(model, model, value)
     });
-    console.log('hola');
     return model;
 };
 

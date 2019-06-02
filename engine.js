@@ -38,7 +38,6 @@ module.exports = function (app) {
                 for (var i in arguments) {
                     result += (typeof arguments[i] === "string" ? arguments[i] : "") + "";
                 }
-                console.log('result %o', result);
                 return result;
             },
             partial: function (name, args) {

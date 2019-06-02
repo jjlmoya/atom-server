@@ -1,36 +1,43 @@
+const Sizes = require('./modifiers/sizes');
+const Colors = require('./modifiers/colors');
+
 module.exports = {
     path: 'atoms',
     base: 'a-button',
-    modifiers: [
-        require('./modifiers/sizes'),
-        require('./modifiers/colors')
-    ],
-    button: {
-        name: 'button',
-        modifiers: [],
-        components: [
-            {
-                name: 'icon',
-                modifiers: [],
-                svg: []
-            },
-            {
-                name: 'linear',
-                modifiers: []
-            },
-            {
-                name: 'rounded',
-                modifiers: []
-            },
-            {
-                name: 'slider',
-                modifiers: []
-            }, {
-                name: 'text-icon',
-                modifiers: [],
-                svg: []
-            }
-        ]
-    }
-
+    components: [
+        {
+            name: 'button',
+            components: [
+                {
+                    name: 'icon',
+                    svg: [],
+                    sizes: Sizes,
+                    colors: Colors
+                },
+                {
+                    name: 'linear',
+                    modifiers: ['', 'secondary'],
+                    sizes: Sizes,
+                    colors: Colors
+                },
+                {
+                    name: 'rounded',
+                    modifiers: ['', 'secondary'],
+                    sizes: Sizes,
+                    colors: Colors
+                },
+                {
+                    name: 'slider',
+                    modifiers: ['', 'secondary'],
+                    sizes: Sizes,
+                    colors: Colors
+                }, {
+                    name: 'text-icon',
+                    modifiers: ['', 'secondary'],
+                    sizes: Sizes,
+                    colors: Colors,
+                    svg: []
+                }
+            ]
+        }]
 };
