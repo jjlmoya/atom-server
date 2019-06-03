@@ -18,7 +18,6 @@ exports.join = function (values) {
     var model = {
         brands: brands,
         router: router,
-        components: require('../components/index'),
         mock: require('../settings/mock')
     };
     if (typeof values !== 'array') {
