@@ -12,7 +12,7 @@ module.exports = {
     products: [
         {
             name: 'Prueba 1',
-            image: 'https://cdn-images-1.medium.com/max/1200/1*SlXjjZ8ghJI9w37gzpG9FA.png',
+            image: '/images/mock1.jpg',
             transparent: 'https://cryptorunner.com/wp-content/uploads/2017/10/ethereum-symbol.png',
             description: 'Una pequeña descripción de producto',
             subtitle: 'Test',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {
             name: 'Prueba 2',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+            image: '/images/mock2.jpg',
             transparent: 'https://cryptorunner.com/wp-content/uploads/2017/10/ethereum-symbol.png',
             description: 'Una pequeña descripción de producto',
             subtitle: 'Test',
