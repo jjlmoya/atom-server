@@ -24,7 +24,8 @@ exports.brands = [
     'paradise-orange',
     'purple-skies',
     'reverse-sky',
-    'sky'
+    'sky',
+    'strawberry'
 ];
 
 exports.server = function () {
