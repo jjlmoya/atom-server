@@ -8,6 +8,7 @@ exports.db = function () {
 
 exports.brands = [
     'aviator',
+    'blueberry',
     'cake',
     'caribbean',
     'clouds',
