@@ -27,6 +27,7 @@ exports.brands = [
     'purple-skies',
     'reverse-sky',
     'sky',
+    'spring-melody',
     'strawberry'
 ];
 
