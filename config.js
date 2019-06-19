@@ -28,7 +28,8 @@ exports.brands = [
     'reverse-sky',
     'sky',
     'spring-melody',
-    'strawberry'
+    'strawberry',
+    'wood',
 ];
 
 exports.server = function () {
