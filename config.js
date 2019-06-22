@@ -14,6 +14,7 @@ exports.brands = [
     'clouds',
     'celeste',
     'diable',
+    'eevee',
     'forest',
     'graylord',
     'kino',
@@ -48,6 +49,7 @@ exports.router = function () {
         require('./pages/purple'),
         require('./pages/lmg'),
         require('./pages/pyf'),
-        require('./pages/frontjs')
+        require('./pages/frontjs'),
+        require('./pages/stepped')
     ]
 };
