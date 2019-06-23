@@ -1,4 +1,41 @@
 module.exports = {
+    buttons: [
+        {
+            svg: 'atoms/icons/lifestyle/relax',
+            cta: 'Relax',
+            tag: 'relax',
+            brand: '',
+            childs: []
+        },
+        {
+            svg: 'atoms/icons/lifestyle/work',
+            cta: 'Trabajo',
+            tag: 'work',
+            brand: '',
+            childs: []
+        },
+        {
+            svg: 'atoms/icons/lifestyle/sports',
+            cta: 'Deporte',
+            brand: '',
+            tag: 'sport',
+            childs: []
+        },
+        {
+            svg: 'atoms/icons/lifestyle/party',
+            cta: 'Ocio',
+            tag: 'party',
+            brand: '',
+            childs: []
+        },
+        {
+            svg: 'atoms/icons/lifestyle/cultural',
+            cta: 'Cultural',
+            tag: 'culture',
+            brand: '',
+            childs: []
+        }
+    ],
     product: {
         name: 'Producto',
         image: 'https://d2wnixsywa9nb4.cloudfront.net/wp-content/uploads/2017/12/02135818/LeetCode_logo.png',
