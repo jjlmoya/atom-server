@@ -5,7 +5,13 @@ module.exports = {
             cta: 'Relax',
             tag: 'relax',
             brand: '',
-            childs: []
+            childs: [
+                {
+                    svg: 'atoms/icons/lifestyle/family',
+                    cta: 'Relax',
+                    tag: 'relax',
+                }
+            ]
         },
         {
             svg: 'atoms/icons/lifestyle/work',
