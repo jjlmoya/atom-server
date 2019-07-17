@@ -1,8 +1,8 @@
 module.exports = {
     path: '/stepped/',
     view: 'pages/stepped/index',
-    layout: 'abtasty',
+    layout: 'main',
     name: 'Stepped',
     brand: 'eevee',
-    logo: '/images/mv.jpg'
-}
+    logo: '/images/mv.png'
+};
