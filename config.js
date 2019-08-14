@@ -18,6 +18,7 @@ exports.brands = [
     'forest',
     'graylord',
     'kino',
+    'laser',
     'lavandula',
     'lemon',
     'lime-sports',
