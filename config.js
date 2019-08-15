@@ -17,6 +17,7 @@ exports.brands = [
     'eevee',
     'forest',
     'graylord',
+    'holy',
     'kino',
     'laser',
     'lavandula',
