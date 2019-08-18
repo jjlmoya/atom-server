@@ -33,6 +33,7 @@ exports.brands = [
     'sky',
     'spring-melody',
     'strawberry',
+    'tosca',
     'wood',
 ];
 
