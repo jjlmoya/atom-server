@@ -16,6 +16,7 @@ exports.brands = [
     'celeste',
     'diable',
     'eevee',
+    'flowers',
     'forest',
     'graylord',
     'haze',
