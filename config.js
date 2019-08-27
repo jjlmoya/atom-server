@@ -1,11 +1,3 @@
-exports.db = function () {
-    return {
-        dbName: 'mocking',
-        protocol: 'mongodb://',
-        url: 'localhost:27017/'
-    }
-};
-
 exports.brands = [
     'aviator',
     'blueberry',
@@ -56,6 +48,7 @@ exports.router = function () {
         require('./pages/lmg'),
         require('./pages/pyf'),
         require('./pages/frontjs'),
-        require('./pages/stepped')
+        require('./pages/stepped'),
+        require('./pages/rueda')
     ]
 };
