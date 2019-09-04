@@ -28,6 +28,7 @@ exports.brands = [
     'purple-skies',
     'reverse-sky',
     'sky',
+    'shadz',
     'spring-melody',
     'strawberry',
     'tosca',
