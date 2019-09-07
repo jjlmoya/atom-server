@@ -23,6 +23,7 @@ exports.brands = [
     'mint',
     'nature',
     'phalawon',
+    'pumpkin',
     'naisu',
     'paradise-orange',
     'purple-skies',
